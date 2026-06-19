@@ -82,3 +82,16 @@ body {
 .header .icons div:hover{
   color: var(--main-color);
 }
+
+#menu-btn{
+  display: none;
+}
+
+.header .search-form{
+  top: 55%; right: 1%;
+  background: #fff;
+  width: 20rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+}
