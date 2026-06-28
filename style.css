@@ -148,7 +148,7 @@ body {
   gap: 1.5rem;
 }
 
-.header .cart-items-container .cart-item .fa-times{
+.header .cart-items-container .cart-item .fa-time{
   position: absolute;
   top: 1rem; right: 1rem;
   font-size: 2rem;
@@ -156,6 +156,16 @@ body {
   color: var(--black);
 }
 
-.header .cart-items-container .cart-item .fa-times:hover{
+.header .cart-items-container .cart-item .fa-time:hover{
   color: var(--main-color);
+}
+
+.header .cart-items-container .cart-item img {
+  height: 7rem;
+}
+
+.header .cart-items-container .cart-item .content h3 {
+  font-size: 2rem;
+  color: var(--black);
+  padding-bottom: .5rem;
 }
