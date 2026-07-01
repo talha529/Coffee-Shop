@@ -47,6 +47,11 @@ body {
   padding: .7rem 3rem;
   color: #fff;
   background: var(--main-color);
+  cursor: pointer;
+}
+
+btn:hover{
+  letter-spacing: .2rem;
 }
 
 .header {
