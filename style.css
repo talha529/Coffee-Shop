@@ -41,6 +41,14 @@ body {
   background: var(--bg);
 }
 
+.btn{
+  margin-top: 1rem;
+  display: inline-block;
+  padding: .7rem 3rem;
+  color: #fff;
+  background: var(--main-color);
+}
+
 .header {
   background: var(--bg);
   display: flex;
@@ -176,5 +184,4 @@ body {
 .header .cart-items-container .cart-item .content .price{
   font-size: 2rem;
   color: var(--main-color);
-  padding-bottom: .2rem;
 }
