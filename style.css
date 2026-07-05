@@ -115,7 +115,7 @@ body {
   align-items: center;
   transform: scaleY(0);
   transform-origin: top;
-  
+
 }
 
 .header .search-form input{
@@ -149,7 +149,7 @@ body {
 
 .header .cart-items-container {
   position: absolute;
-  top: 100%; right: 0;
+  top: 100%; right: -100%;
   height: calc(100vh - 9.5rem);
   width: 35rem;
   background: #fff;
@@ -192,3 +192,9 @@ body {
   font-size: 2rem;
   color: var(--main-color);
 }
+
+.header .cart-items-container .btn{
+  width: 100%4;
+  text-align: center;
+}
+
