@@ -18,10 +18,10 @@
 }
 
 html{
-    font-size: 62%;
-    overflow-x: hidden;
-    scroll-padding-top: 9rem;
-    scroll-behavior: smooth;
+  font-size: 62%;
+  overflow-x: hidden;
+  scroll-padding-top: 9rem;
+  scroll-behavior: smooth;
 }
 
 html::-webkit-scrollbar {
@@ -198,3 +198,16 @@ body {
   text-align: center;
 }
 
+@media(max-width:991px){
+  html{
+  font-size: 62%;
+  }
+
+  .header .navbar{
+    position: absolute;
+    top: 100%; right: 0;
+    background: #fff;
+    background: 30rem;
+  }
+
+}
