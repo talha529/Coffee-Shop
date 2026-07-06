@@ -170,6 +170,8 @@ body {
   font-size: 2rem;
   cursor: pointer;
   color: var(--black);
+
+  
 }
 
 
@@ -202,7 +204,7 @@ body {
   html{
   font-size: 62%;
   }
-  
+
 
   .header .navbar{
     position: absolute;
