@@ -10,8 +10,8 @@ document.querySelector('#cart-btn').onclick = () =>{
     cartItem.classList.toggle('active')
 }
 
-let cartItem = document.querySelector('.cart-items-container');
+let searchForm = document.querySelector('.search-form');
 
-document.querySelector('#cart-btn').onclick = () =>{
-    cartItem.classList.toggle('active')
+document.querySelector('#search-btn').onclick = () =>{
+    searchForm.classList.toggle('active')
 }

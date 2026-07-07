@@ -106,7 +106,7 @@ body {
 
 .header .search-form{
   position: absolute;
-  top: 55%; right: 1%;
+  top: 100%; left: 50vw;
   background: #fff;
   width: 20rem;
   height: 2rem;
@@ -114,7 +114,10 @@ body {
   align-items: center;
   transform: scaleY(0);
   transform-origin: top;
+}
 
+.header .search-form.active{
+  transform: scaleY(1);
 }
 
 .header .search-form input{
