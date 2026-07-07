@@ -128,11 +128,15 @@ body {
 
 .header .cart-items-container{
   position: absolute;
-  top: 100%;
-  height: 34rem;
+  top: 100%; right: -100%;
+  height: calc(100vh - 9.5rem);
   width: 35rem;
   background: #fff;
   padding: 0 1.5rem;
+}
+
+.header .cart-items-container.active{
+  right: 0;
 }
 
 .header .search-form label{
@@ -207,14 +211,18 @@ body {
     top: 100%; right: -100%;
     background: #fff;
     width: 30rem;
-    height: calc(100vh-9.5rem);
+    height: calc(100vh - 9.5rem);
+  }
+
+  .header .navbar.active{
+    right: 0;
   }
 
   .header .navbar a{
     color: var(--black);
     display: block;
     padding: 5rem;
-    font-size: 2rem4;
+    font-size: 2rem;
   }
 
 }
