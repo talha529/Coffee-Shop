@@ -96,7 +96,6 @@ body {
   margin-left: 2rem;
 }
 
-
 .header .icons i:hover{
   color: var(--main-color);
 }
@@ -194,26 +193,26 @@ body {
 }
 
 .header .cart-items-container .btn{
-  width: 100%4;
+  width: 100%;
   text-align: center;
 }
 
 @media(max-width:991px){
-  html{
-  font-size: 62%;
-  }
+  #menu-btn{
+  display: inline-block;  }
 
 
   .header .navbar{
     position: absolute;
-    top: 100%; right: 0;
+    top: 100%; right: -100%;
     background: #fff;
-    background: 30rem;
+    width: 30rem;
+    height: calc(100vh-9.5rem);
   }
 
   .header .navbar a{
+    color: var(--black);
     display: block;
-    margin: .2rem;
     padding: 5rem;
     font-size: 2rem4;
   }
