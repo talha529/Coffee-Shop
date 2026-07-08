@@ -15,3 +15,9 @@ let searchForm = document.querySelector('.search-form');
 document.querySelector('#search-btn').onclick = () =>{
     searchForm.classList.toggle('active')
 }
+
+window.onscroll = () =>{
+    navbar.classList.remove('active')
+    cartItem.classList.remove('active')
+    searchForm.classList.remove('active')
+}
