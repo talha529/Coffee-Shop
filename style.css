@@ -230,6 +230,8 @@ body {
   }
 
   .header .navbar a{
+
+    
     color: var(--black);
     display: block;
     padding: 5rem;
