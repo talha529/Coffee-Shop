@@ -248,7 +248,6 @@ body {
 
 /* home section */
 
-
 .home{
   min-height: 100vh;
   display: flex;
@@ -256,5 +255,5 @@ body {
   background: url(/images/homeBg.jpg);     
   background-size: cover;
   background-position: center;
-  
+
 }
