@@ -213,11 +213,12 @@ body {
 
   .header{
     padding: 1.5rem 2rem; 
-    
+
   }
 }
 
 @media(max-width:768px){
+  
   #menu-btn{
   display: inline-block; 
   
