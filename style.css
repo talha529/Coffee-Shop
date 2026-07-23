@@ -209,7 +209,7 @@ body {
 
 @media(max-width:991px){
   html{
-  
+
     font-size: 55%;
   }
 
@@ -218,7 +218,6 @@ body {
     padding: 1.5rem 2rem; 
   }
 }
-
 @media(max-width:768px){
   
   #menu-btn{
