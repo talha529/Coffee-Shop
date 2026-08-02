@@ -229,6 +229,7 @@ body {
     background: #fff;
     width: 30rem;
     height: calc(100vh - 9.5rem);
+    
   }
 
   .header .navbar.active{
