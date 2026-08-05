@@ -214,7 +214,7 @@ body {
 
 
   .header{
-    
+
     padding: 1.5rem 2rem; 
   }
   
@@ -224,6 +224,7 @@ body {
   #menu-btn{
 
   display: inline-block; 
+  
 }
 
   .header .navbar{
