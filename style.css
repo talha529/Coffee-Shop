@@ -220,8 +220,8 @@ body {
 @media(max-width:768px){
   #menu-btn{
     
-  display: inline-block; 
-}
+    display: inline-block; 
+  }
 
   .header .navbar{
     position: absolute;
@@ -238,7 +238,6 @@ body {
     right: 0;
   }
 
-
   .header .navbar a{
 
   
@@ -246,6 +245,18 @@ body {
     display: block;
     padding: 5rem;
     font-size: 2rem;
+  }
+
+  .home{
+    justify-content: center;
+  }
+
+  .home .content h3{
+    font-size: 5rem;
+  }
+
+  .home .content p{
+    font-size: 1rem;
   }
 
 }
@@ -267,4 +278,29 @@ body {
   background-size: cover;
   background-position: center;
 
+}
+
+.home .content{
+  max-width: 60rem;
+  margin-left: 4rem;
+}
+
+.home .content h3{
+  font-size: 6rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.home .content p{
+  font-size: 1.2rem;
+  font-weight: lighter;
+  line-height: 1.8;
+  padding: 1rem 0rem;
+  color: #eee;
+}
+
+.home .content .btn{
+  font-size: 1.5rem;
+  padding: 0.8rem;
+  border-radius: 2px;
 }
