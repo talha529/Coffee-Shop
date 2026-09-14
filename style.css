@@ -82,11 +82,7 @@ body {
 .header .navbar a:hover {
   color: var(--main-color);
   border-bottom: .1rem solid var(--main-color);
-
-  padding-bottom: .5rem;
-  
 }
-
 
 .header .icons i{
   color: #fff;
@@ -243,7 +239,7 @@ body {
   
     color: var(--black);
     display: block;
-    padding: 5rem;
+    padding: 2rem;
     font-size: 2rem;
   }
 
@@ -274,7 +270,7 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url(/images/homeBg.jpg);     
+  background: url(/images/homeBg.jpg);
   background-size: cover;
   background-position: center;
 
@@ -300,6 +296,56 @@ body {
 }
 
 .home .content .btn{
+  font-size: 1.5rem;
+  padding: 0.8rem;
+  border-radius: 2px;
+}
+
+/* About us */
+.heading{
+  color: #fff;
+  text-align: center;
+  font-size: 4rem;
+  padding: 1.3rem;
+}
+
+.heading span{
+  color: var(--main-color);
+
+}
+
+.about .row{
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--black);
+  margin: 0rem 12rem;
+}
+
+.about .row .image{
+  flex: 1 1 45rem;
+}
+
+.about .row .image img{
+  width: 100%;
+}
+
+.about .row .content{
+  flex: 1 1 45rem;
+  padding: 2rem;
+}
+
+.about .row .content h3{
+  font-size: 3rem;
+  color:#fff;
+}
+
+.about .row .content p{
+  font-size: 2rem;
+  color:#fff;
+}
+
+.about .row .content .btn{
   font-size: 1.5rem;
   padding: 0.8rem;
   border-radius: 2px;
