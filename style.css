@@ -350,3 +350,9 @@ body {
   padding: 0.8rem;
   border-radius: 2px;
 }
+
+.box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
