@@ -398,3 +398,49 @@ body {
   color: var(--black) !important;
 }
 
+/* menu section ends */
+
+.products .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(38rem, 1fr));
+  gap: 1.6rem;
+}
+
+.products .box-container .box{
+  text-align: center;
+  border: var(--border);
+  padding: 2rem;
+}
+
+.products .box-container .box img{
+  width: 20rem;
+  height: 20rem;
+}
+
+.products .box-container .box .icons a{
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  font-size: 2rem;
+  border: var(--border);
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.products .box-container .box .icons :hover{
+ background: var(--main-color);
+}
+
+.products .box-container .box .content{
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.products .box-container .box .content .stars{
+  padding: .5rem;
+  font-size: 1rem;
+}
+
+.products .box-container .box .content .price{
+  font-size: 1.8rem;
+}
